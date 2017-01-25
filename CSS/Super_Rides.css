@@ -1,0 +1,417 @@
+/* Andrew Laramee, ID:27050925
+ * Comp 353, Section F, Professor Bipin C Desai 
+ */
+
+/*	Code for every page	*/
+body{
+background-image: url('../Images/red_back.jpg');
+background-size: auto;
+}
+#main{
+width: 1000px;
+position: absolute;
+left: 0;
+right: 0;
+margin: auto;
+}
+#language{
+text-align: right;
+color: #B0B0B0;
+margin-bottom: 0px;
+}
+h1{
+background-color: #990000;
+background-image: url("http://i.imgur.com/rWcUpp2.jpg");
+margin-top: 0px;
+margin-bottom: 0px;
+text-align: left;
+height: 230px;
+border: 3px solid #660000;
+}
+#headtxt{
+font-size: 30px;
+color: #B8B8B8;
+font-family: "Lucida Console", Monaco, monospace;
+margin-left: 470px;
+}
+#headericon{
+width: 100px;
+height: 170px;
+margin-top: 30px;
+margin-left: 30px;
+}
+#Lar{
+color: #B00000;
+font-size: 140%;
+text-decoration: underline;
+}
+#menuBar{
+background-color: #990000;
+margin-top: 5px;
+text-align: center;
+border: 3px solid #660000;
+}
+.homeButton{
+background-color: #550000;
+padding: 7px 30px;
+border: 2px solid #330000;
+margin-left: 20px;
+margin-right: 20px;
+font: bold 16px sans-serif;
+color: #606060;
+text-shadow: 0 1px 1px rgba(0,0,0,.3);
+box-shadow: 0 1px 1px rgba(0,0,0,.1);
+}
+.homeButton:active{
+position: relative;
+top: 1px;
+}
+footer{
+background-image: url("http://i.imgur.com/ivAQIR0.jpg");
+background-size: 950px 500px; 
+margin-top: 50px;
+border: 3px solid #660000; 
+background-color: #505050;
+margin-bottom: 20px;
+}
+#footerTable{
+padding-top: 16px;
+padding-left:30px;
+padding-right: 30px;
+width: 995px;
+text-align: center;
+}
+th{
+font-size: 22px;
+text-decoration: underline;
+padding-bottom: 10px;
+}
+a:link{
+color: #B0B0B0;
+}
+a:visited{
+color: #B0B0B0;
+}
+#copyright{
+text-align: right;
+font-size: 11px;
+margin-right: 10px;
+}
+.errorText{
+color: #0000CD;
+font-size: 20px;
+}
+.smallTitle{
+font-size: 25px;
+color: white;
+}
+
+
+/*	Code for individual pages	*/
+
+/*Home page*/
+#description{
+background-color: #B8B8B8;
+border: 3px solid #660000;
+padding: 15px;
+}
+#homeImg{
+width: 400px;
+margin-left: 40px;
+margin-top: 20px;
+border: 3px solid #660000;
+}
+
+/*Member*/
+#memberTable{
+margin-top: 30px;
+border-collapse: collapse;
+background: #bbb;
+width: 100%;
+}
+#memberTable thead{
+background: #888;
+}
+#memberTable th, #memberTable td{
+border: 1px solid #666;
+padding: 10px;
+}
+#memberTable td{
+font-size: 17px;
+}
+
+/*Profile*/
+#profileTable{
+margin-top: 30px;
+border-collapse: collapse;
+background: #999;
+width: 50%;
+}
+#profileTable th, #profileTable td{
+border: 1px solid #666;
+padding: 10px;
+}
+#profileTable th{
+background: #777;
+}
+#profileTable td{
+font-size: 17px;
+}
+#addVBUtton{
+position: absolute;
+right: 10%;
+top:35%;
+}
+#carDetails{
+position: absolute;
+right: 0;
+top: 30%;
+width:40%;
+}
+#carDetailTable{
+border-collapse: collapse;
+background: #999;
+width:95%;
+}
+#carDetailTable th, #carDetailTable td{
+border: 1px solid #666;
+padding: 10px;
+}
+#carDetailTable th{
+background: #777;
+}
+
+.privacyDiv{
+width: 50%;
+}
+.privSelect{
+color: lightgrey;
+font-size: 22px;
+}
+.privDescription{
+color: lightgrey;
+}
+.privButton{
+display: inline-block;
+color: #666;
+background-color: #eee;
+text-transform: uppercase;
+letter-spacing: 2px;
+font-size: 12px;
+padding: 10px 30px;
+border-radius: 5px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+border: 1px solid rgba(0,0,0,0.3);
+border-bottom-width: 3px;
+}
+.addFund a:link, .addFund a:visited{
+color: black;
+}
+.addFund a:hover{
+color: blue;
+}
+.addFund{
+font-size: 12px;
+}
+.joinButton{
+display: inline-block;
+color: #666;
+background-color: #eee;
+text-transform: uppercase;
+letter-spacing: 2px;
+font-size: 12px;
+padding: 10px 30px;
+border-radius: 5px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+border: 1px solid rgba(0,0,0,0.3);
+border-bottom-width: 3px;
+margin-top: 20px;
+}
+
+/*Rides*/
+/*Ride home*/
+#ridePageDiv{
+margin-top: 20px;
+width: 100%;
+text-align: center;
+}
+.inlineBlock{
+padding-top: 40px;
+background-image: url('../Images/gray-button.png');
+background-size:contain;
+width: 250px;
+height: 208px;
+margin-left: 20px;
+margin-right: 20px;
+display: inline-block;
+text-align: center;
+font-size: 27px;
+font-weight: bold;
+}
+.insideBlock{
+padding:2px;
+padding-top:20px;
+font-size: 17px;
+font-weight: normal;
+}
+.inlineBlock a:link, .inlineBlock a:visited{
+color: black;
+}
+.inlineBlock a:hover{
+color: #8B0000;
+}
+
+/*Post ride*/
+.postBlock{
+background-image: url('../Images/gray-button-wide.png');
+background-size:contain;
+width: 160px;
+height: 70px;
+display: inline-block;
+padding: 10px;
+text-align: center;
+line-height: 70px;
+font-size: 22px;
+margin-top: 20px;
+}
+.postBlock a:link, .postBlock a:visited{
+color: black;
+}
+.postBlock a:hover{
+color: #8B0000;
+}
+.postParagraph{
+display: inline;
+vertical-align: middle;
+margin-left: 30px;
+color: lightgray;
+font-size: 17px;
+}
+
+/*Contact Us page*/
+#contTable{
+margin-top: 20px;
+}
+#contactPage{
+background-color: #B8B8B8;
+border: 3px solid #660000;
+padding: 30px;
+font-size: 20px;
+width: 500px;
+height: 318px;
+}
+#building{
+margin-left: 50px;
+border: 3px solid #660000;
+}
+#cont{
+border: 3px solid #660000;
+background-color: #606060;
+padding: 20px;
+font-size: 37px;
+}
+
+
+/*Signup page*/
+#registration{
+background-color: #D0D0D0;
+width: 605px;
+border: 3px solid #909090;
+margin: 0 auto;
+padding: 25px;
+font-size: 18px;
+}
+#regPage{
+margin-top: 40px;
+text-align: center;
+}
+#regTitle{
+font-size: 34px;
+color: white;
+}
+.regData1{
+height: 30px;
+width: 275px;
+padding: 5px;
+font-size: 20px;
+color: #505050;
+margin: 5px;
+}
+.regData2{
+height: 30px;
+width: 235px;
+padding: 5px;
+font-size: 16px;
+color: #505050;
+margin: 18px;
+margin-left: 30px;
+}
+.regData3{
+height: 30px;
+width: 578px;
+padding: 5px;
+font-size: 20px;
+color: #505050;
+margin: 5px;
+margin-bottom: 0px;
+}
+.regData4{
+height: 30px;
+width: 120px;
+padding: 5px;
+font-size: 20px;
+color: #505050;
+margin: 5px;
+margin-bottom: 20px;
+}
+.regInfo{
+font-size: 13px;
+color: #303030;
+padding-left:10px;
+}
+.passText{
+color: #505050;
+margin-left: 10px;
+font-weight: bold;
+}
+.refText{
+color: #505050;
+margin-left: 10px;
+font-weight: bold;
+font-size: 25px;
+}
+.regButton{
+height: 40px;
+width: 245px;
+font-size: 20px;
+color: white;
+margin-top: 50px;
+margin-left: 29px;
+margin-right: 25px;
+background-color: #FF8800;
+border: 2px solid #909090;
+text-shadow: 0 1px 1px rgba(0,0,0,.3);
+box-shadow: 0 1px 1px rgba(0,0,0,.4);
+}
+.regButton:active{
+position: relative;
+top: 1px;
+}
+h2{
+color: white;
+}
+
+
+/*Login page*/
+.logButton{
+padding: 5px;
+margin: 7px;
+width: 134px;
+font-size: 15px;
+}
+.logButton:active{
+position: relative;
+top: 1px;
+}
